@@ -26,9 +26,9 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@new-wifi-d2
+        uses: actions/checkout@master
         with:
-          ref: new-wifi-d2
+          ref: master
 
       - name: Space cleanup
         env:

@@ -186,7 +186,7 @@ jobs:
           EOF
 
           # 定制编译new-wifi-d2:
-          cat new-wifi.config >> .config
+          cat new-wifi-cfg >> .config
 
           # 
           # ========================固件定制部分结束========================

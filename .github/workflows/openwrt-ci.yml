@@ -201,7 +201,7 @@ jobs:
           CONFIG_PACKAGE_ppp=y
           CONFIG_PACKAGE_ppp-mod-passwordfd=y
           CONFIG_PACKAGE_ppp-mod-pppol2tp=y
-
+          CONFIG_PACKAGE_UnblockNeteaseMusicGo=y
           EOF
           # 
           # ========================固件定制部分结束========================

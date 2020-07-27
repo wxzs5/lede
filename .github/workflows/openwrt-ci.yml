@@ -60,7 +60,7 @@ jobs:
       - name: Generate configuration file
         run: |
           rm -f ./.config*
-          mv ./my-cfg/.config ./.config
+          mv ./my-cfg/cfg ./.config
           sed -i 's/^[ \t]*//g' ./.config
           make defconfig
 

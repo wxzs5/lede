@@ -6917,7 +6917,7 @@ jobs:
 
 
           sed -i 's/^[ \t]*//g' ./.config
-          make defconfig
+          # make defconfig
 
       - name: Show config info
         run: |

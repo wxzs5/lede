@@ -61,6 +61,13 @@ jobs:
         run: |
           make defconfig
 
+      - name: Show config info
+        run: |
+          echo now in
+          pwd
+          ls
+          cat .config
+
       - name: Make download
         run: |
           make download -j8 || make download -j1 V=s

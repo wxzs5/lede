@@ -2789,7 +2789,7 @@ jobs:
           # CONFIG_PACKAGE_kmod-iwl-legacy is not set
           # CONFIG_PACKAGE_kmod-iwl3945 is not set
           # CONFIG_PACKAGE_kmod-iwl4965 is not set
-          # CONFIG_PACKAGE_kmod-iwlwifi is not set
+          CONFIG_PACKAGE_kmod-iwlwifi=y
           # CONFIG_PACKAGE_kmod-lib80211 is not set
           # CONFIG_PACKAGE_kmod-libertas-sdio is not set
           # CONFIG_PACKAGE_kmod-libertas-spi is not set
